@@ -1,0 +1,240 @@
+[Version]
+DLLVer=02.3005.00.3
+PRJVer=1
+
+[PRJKIND]
+mode=1
+
+[CPUTYPE]
+CpuSerise=907
+
+[DirInfo]
+PRJ=Z:\03_Development\02_Software\DEMO\PWM\
+
+[PrjInfo]
+Count=2
+PrjInfo-0=Debug
+PrjInfo-1=Release
+Active=Debug
+
+[MEMBER]
+F0=11
+F1=0 f Core
+F2=0 l ..\COMMON\LIB\EXTRA\libEXTRAs.lib
+F3=0 l ..\COMMON\LIB\MB90385\libMB90F387Ss.lib
+F4=0 f Core\start
+F5=0 c ..\COMMON\LIB\MB90385\start\io_mb90385.c
+F6=0 c ..\COMMON\LIB\MB90385\start\isr_cfg.c
+F7=0 a ..\COMMON\LIB\MB90385\start\monitor16lx.asm
+F8=0 a ..\COMMON\LIB\MB90385\start\start.asm
+F9=0 c ..\COMMON\LIB\MB90385\start\vectors.c
+F10=0 f Source
+F11=0 c Source\pwm.c
+
+[OPTIONFILE]
+FILE=PWM.dat
+
+[CPUTYPE-Debug]
+CsvFile=Lib\907\907.csv
+CpuName=MB90F387S
+Count=0
+
+[DirInfo-Debug]
+CONFIG=Debug\
+OBJ=Debug\
+LST=Debug\
+OPT=Debug\OPT\
+
+[MEMBER-Debug]
+F0=9
+F1=0 m 1 Debug\PWM.abs
+F2=7 c 1 ..\COMMON\LIB\MB90385\start\io_mb90385.c
+F2-1=- ..\COMMON\LIB\MB90385\include\IO\io_mb90385.h
+F2-2=- ..\COMMON\LIB\MB90385\include\IO\io_structs.h
+F2-3=- ..\COMMON\LIB\MB90385\include\LIB\bitmanip.h
+F2-4=- ..\COMMON\LIB\MB90385\include\LIB\stdtypes.h
+F2-5=- ..\COMMON\LIB\MB90385\include\LIB\compiler.h
+F2-6=- C:\Softune\LIB\907\INCLUDE\stddef.h
+F2-7=- ..\COMMON\LIB\MB90385\include\LIB\platformtypes.h
+F3=10 c 1 ..\COMMON\LIB\MB90385\start\isr_cfg.c
+F3-1=- ..\COMMON\LIB\MB90385\include\MCU\isr.h
+F3-2=- ..\COMMON\LIB\MB90385\include\IO\icr_io.h
+F3-3=- ..\COMMON\LIB\MB90385\include\IO\io_mb90385.h
+F3-4=- ..\COMMON\LIB\MB90385\include\IO\io_structs.h
+F3-5=- ..\COMMON\LIB\MB90385\include\LIB\bitmanip.h
+F3-6=- ..\COMMON\LIB\MB90385\include\LIB\stdtypes.h
+F3-7=- ..\COMMON\LIB\MB90385\include\LIB\compiler.h
+F3-8=- C:\Softune\LIB\907\INCLUDE\stddef.h
+F3-9=- ..\COMMON\LIB\MB90385\include\LIB\platformtypes.h
+F3-10=- ..\COMMON\LIB\MB90385\include\isr_cfg.h
+F4=0 a 1 ..\COMMON\LIB\MB90385\start\monitor16lx.asm
+F5=0 a 1 ..\COMMON\LIB\MB90385\start\start.asm
+F6=10 c 1 ..\COMMON\LIB\MB90385\start\vectors.c
+F6-1=- ..\COMMON\LIB\MB90385\include\MCU\isr.h
+F6-2=- ..\COMMON\LIB\MB90385\include\IO\icr_io.h
+F6-3=- ..\COMMON\LIB\MB90385\include\IO\io_mb90385.h
+F6-4=- ..\COMMON\LIB\MB90385\include\IO\io_structs.h
+F6-5=- ..\COMMON\LIB\MB90385\include\LIB\bitmanip.h
+F6-6=- ..\COMMON\LIB\MB90385\include\LIB\stdtypes.h
+F6-7=- ..\COMMON\LIB\MB90385\include\LIB\compiler.h
+F6-8=- C:\Softune\LIB\907\INCLUDE\stddef.h
+F6-9=- ..\COMMON\LIB\MB90385\include\LIB\platformtypes.h
+F6-10=- ..\COMMON\LIB\MB90385\include\isr_cfg.h
+F7=0 l 1 ..\COMMON\LIB\MB90385\libMB90F387Ss.lib
+F8=0 l 1 ..\COMMON\LIB\EXTRA\libEXTRAs.lib
+F9=22 c 1 Source\pwm.c
+F9-1=- ..\COMMON\LIB\MB90385\include\PWM\pwm.h
+F9-2=- ..\COMMON\LIB\MB90385\include\TMR\ppg.h
+F9-3=- ..\COMMON\LIB\MB90385\include\IO\ppg01_io.h
+F9-4=- ..\COMMON\LIB\MB90385\include\IO\ppg_types.h
+F9-5=- ..\COMMON\LIB\MB90385\include\IO\io_mb90385.h
+F9-6=- ..\COMMON\LIB\MB90385\include\IO\io_structs.h
+F9-7=- ..\COMMON\LIB\MB90385\include\LIB\bitmanip.h
+F9-8=- ..\COMMON\LIB\MB90385\include\LIB\stdtypes.h
+F9-9=- ..\COMMON\LIB\MB90385\include\LIB\compiler.h
+F9-10=- C:\Softune\LIB\907\INCLUDE\stddef.h
+F9-11=- ..\COMMON\LIB\MB90385\include\LIB\platformtypes.h
+F9-12=- ..\COMMON\LIB\MB90385\include\IO\ppg23_io.h
+F9-13=- ..\COMMON\LIB\MB90385\include\TMR\gpt.h
+F9-14=- ..\COMMON\LIB\MB90385\include\MCU\isr.h
+F9-15=- ..\COMMON\LIB\MB90385\include\IO\icr_io.h
+F9-16=- ..\COMMON\LIB\MB90385\include\isr_cfg.h
+F9-17=- ..\COMMON\LIB\MB90385\include\ADC\adc.h
+F9-18=- ..\COMMON\LIB\MB90385\include\IO\adc_io.h
+F9-19=- ..\COMMON\LIB\MB90385\include\GPIO\pin.h
+F9-20=- ..\COMMON\LIB\MB90385\include\IO\pin_io.h
+F9-21=- ..\COMMON\LIB\MB90385\include\GPIO\port.h
+F9-22=- ..\COMMON\LIB\MB90385\include\IO\port_io.h
+
+[BUILDMODE-Debug]
+kernel=1
+ABI=0
+
+[RUNSET-Debug]
+CONVERT=0
+CONVERTKIND=0
+
+[DebState-Debug]
+SupCount=1
+Supfile-0=Debug\TEMPLATE.sup
+Current=TEMPLATE.sup
+AliasFile=
+CPURunMode=16,16,16,16,0,1,0x0:0x0,,0,0xFF
+
+[CPUTYPE-Release]
+CsvFile=Lib\907\907.csv
+CpuName=MB90F387S
+Count=0
+
+[DirInfo-Release]
+CONFIG=Release\
+OBJ=Release\
+LST=Release\
+OPT=Release\OPT\
+
+[MEMBER-Release]
+F0=9
+F1=0 m 1 Release\PWM.abs
+F2=7 c 1 ..\COMMON\LIB\MB90385\start\io_mb90385.c
+F2-1=- ..\COMMON\LIB\MB90385\include\IO\io_mb90385.h
+F2-2=- ..\COMMON\LIB\MB90385\include\IO\io_structs.h
+F2-3=- ..\COMMON\LIB\MB90385\include\LIB\bitmanip.h
+F2-4=- ..\COMMON\LIB\MB90385\include\LIB\stdtypes.h
+F2-5=- ..\COMMON\LIB\MB90385\include\LIB\compiler.h
+F2-6=- C:\Softune\LIB\907\INCLUDE\stddef.h
+F2-7=- ..\COMMON\LIB\MB90385\include\LIB\platformtypes.h
+F3=10 c 1 ..\COMMON\LIB\MB90385\start\isr_cfg.c
+F3-1=- ..\COMMON\LIB\MB90385\include\MCU\isr.h
+F3-2=- ..\COMMON\LIB\MB90385\include\IO\icr_io.h
+F3-3=- ..\COMMON\LIB\MB90385\include\IO\io_mb90385.h
+F3-4=- ..\COMMON\LIB\MB90385\include\IO\io_structs.h
+F3-5=- ..\COMMON\LIB\MB90385\include\LIB\bitmanip.h
+F3-6=- ..\COMMON\LIB\MB90385\include\LIB\stdtypes.h
+F3-7=- ..\COMMON\LIB\MB90385\include\LIB\compiler.h
+F3-8=- C:\Softune\LIB\907\INCLUDE\stddef.h
+F3-9=- ..\COMMON\LIB\MB90385\include\LIB\platformtypes.h
+F3-10=- ..\COMMON\LIB\MB90385\include\isr_cfg.h
+F4=0 a 1 ..\COMMON\LIB\MB90385\start\monitor16lx.asm
+F5=0 a 1 ..\COMMON\LIB\MB90385\start\start.asm
+F6=10 c 1 ..\COMMON\LIB\MB90385\start\vectors.c
+F6-1=- ..\COMMON\LIB\MB90385\include\MCU\isr.h
+F6-2=- ..\COMMON\LIB\MB90385\include\IO\icr_io.h
+F6-3=- ..\COMMON\LIB\MB90385\include\IO\io_mb90385.h
+F6-4=- ..\COMMON\LIB\MB90385\include\IO\io_structs.h
+F6-5=- ..\COMMON\LIB\MB90385\include\LIB\bitmanip.h
+F6-6=- ..\COMMON\LIB\MB90385\include\LIB\stdtypes.h
+F6-7=- ..\COMMON\LIB\MB90385\include\LIB\compiler.h
+F6-8=- C:\Softune\LIB\907\INCLUDE\stddef.h
+F6-9=- ..\COMMON\LIB\MB90385\include\LIB\platformtypes.h
+F6-10=- ..\COMMON\LIB\MB90385\include\isr_cfg.h
+F7=0 l 1 ..\COMMON\LIB\MB90385\libMB90F387Ss.lib
+F8=0 l 1 ..\COMMON\LIB\EXTRA\libEXTRAs.lib
+F9=16 c 1 Source\pwm.c
+F9-1=- ..\COMMON\LIB\MB90385\include\PWM\pwm.h
+F9-2=- ..\COMMON\LIB\MB90385\include\TMR\ppg.h
+F9-3=- ..\COMMON\LIB\MB90385\include\IO\ppg01_io.h
+F9-4=- ..\COMMON\LIB\MB90385\include\IO\ppg_types.h
+F9-5=- ..\COMMON\LIB\MB90385\include\IO\io_mb90385.h
+F9-6=- ..\COMMON\LIB\MB90385\include\IO\io_structs.h
+F9-7=- ..\COMMON\LIB\MB90385\include\LIB\bitmanip.h
+F9-8=- ..\COMMON\LIB\MB90385\include\LIB\stdtypes.h
+F9-9=- ..\COMMON\LIB\MB90385\include\LIB\compiler.h
+F9-10=- C:\Softune\LIB\907\INCLUDE\stddef.h
+F9-11=- ..\COMMON\LIB\MB90385\include\LIB\platformtypes.h
+F9-12=- ..\COMMON\LIB\MB90385\include\IO\ppg23_io.h
+F9-13=- ..\COMMON\LIB\MB90385\include\TMR\gpt.h
+F9-14=- ..\COMMON\LIB\MB90385\include\MCU\isr.h
+F9-15=- ..\COMMON\LIB\MB90385\include\IO\icr_io.h
+F9-16=- ..\COMMON\LIB\MB90385\include\isr_cfg.h
+
+[BUILDMODE-Release]
+kernel=1
+ABI=0
+
+[RUNSET-Release]
+CONVERT=1
+CONVERTKIND=0
+
+[DebState-Release]
+SupCount=1
+Supfile-0=Release\TEMPLATE.sup
+Current=TEMPLATE.sup
+AliasFile=
+CPURunMode=16,16,16,16,0,1,0x0:0x0,,0,0xFF
+
+[AsmBefore]
+Count=0
+
+[AsmAfter]
+Count=0
+
+[CcBefore]
+Count=0
+
+[CcAfter]
+Count=0
+
+[LnkBefore]
+Count=0
+
+[LnkAfter]
+Count=0
+
+[LibBefore]
+Count=0
+
+[LibAfter]
+Count=0
+
+[CnvBefore]
+Count=0
+
+[CnvAfter]
+Count=0
+
+[ConfigBefore]
+Count=0
+
+[ConfigAfter]
+Count=0
+
